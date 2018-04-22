@@ -149,7 +149,7 @@ header .header-bottom .header-main .search input{
     border:none;
     border-radius:5px;
     box-shadow: 0 0 30px rgba(91,118,61,0.8);
-    padding:0 25px;
+    text-indent: 25px;
     font-family: 'Roboto-medium';
     color:Black;
     font-size: 14px; 
