@@ -14,11 +14,15 @@ const clean = require('gulp-clean');            // удаляет файл ил�
 
 const path = {
     src: {
-        html: 'src/*.html',
+        html: [
+            'src/*.html',
+            'src/html-parts/*.html'
+            ],
         styles: [
             'src/css/tools/reset.css',
             'src/css/grid/grid.css',
             'src/css/fontawesome/font-awesome.css',
+            'src/css/css-parts/*.css',
             'src/css/pages/*.css',
             'src/css/*.css'
         ],
@@ -37,7 +41,7 @@ const path = {
         fonts: 'build/fonts/'
     },
     watch: {
-        html: 'src/*.html',
+        html: 'src/**/*.html',
         css: 'src/css/**/*.css',
         js: 'src/js/**/*.js',
         images: 'src/images/**/*',
