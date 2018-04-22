@@ -1,0 +1,148 @@
+body {
+    background: #f4f6f5;
+}
+.col-9 {
+    padding-left: 0;
+}
+.breadcrumbs {
+    display: flex;
+    margin: 40px 0;
+}
+.product-foto {
+    height: 460px;
+    border: 1px solid #dedede;
+    background: #ffffff;
+}
+.foto {
+    height: 424px;
+    background: #dedede;
+    margin: 18px;
+}
+.col-9 h3 {
+    font-family: 'Roboto-medium.ttf';
+    font-size: 30px;
+    margin: 40px 0 30px 0;
+    color: #263238;
+}
+.col-9 p {
+    font-family: 'Roboto-regular';
+    font-size: 16px;
+    color: #707070;
+}
+.buttons button {
+    padding: 19px 24px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-family: 'Roboto-medium.ttf';
+    font-size: 16px;
+    margin: 48px 25px 45px 0;
+}
+.buttons button:first-child {
+    background: #e74c3c;
+}
+.buttons button:nth-child(2) {
+    background: #455a64;
+}
+.buttons button:last-child {
+    background: #8bc34a;
+}
+.social-icons {
+    width: 55px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+}
+.social {
+    display: inline-flex;
+}
+.fa {
+    color: white;
+}
+.face {
+    background: #6370b6;
+}
+.twitter {
+    background: #64b5f6;
+}
+.in {
+    background: #4f71ce;
+}
+.pin {
+    background: #d32f2f;
+}
+.social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info {
+    height: 322px;
+    border: 1px solid #dedede;
+}
+/* .col-4 p {
+    border-right: 1px solid #dedede;
+    padding-top: 15px;
+    margin-left: 36px;
+    margin-bottom: -9px;
+    padding-bottom: 13px;
+}
+.col-4 .last {
+    border-right: none;
+}
+.col-4 .first {
+    border-bottom: 3px solid #8bc34a;
+} */
+.tabs {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+.tabs:after {
+	content: "";
+	clear: both;
+	display: flex;
+	height: 240px;
+}
+.tabs li {
+	float: left;
+}
+.tabs li > input {
+	display: none;
+}
+.tabs li > label {
+	display: inline-flex;
+	border: 1px solid #dcdcdc;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px 20px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.tabs li:last-child > label {
+	border-right-width: 1px;
+}
+.tabs .tab-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	padding: 20px;
+	border: 1px solid #dcdcdc;
+	height: 200px;
+	overflow-y: auto;
+}
+
+.tabs li > input:checked + label {
+	color: black;
+}
+.tabs li > input:checked ~ .tab-content {
+	display: flex;
+}
