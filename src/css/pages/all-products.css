@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    outline: none;
 }
 /*продукты*/
 main {
@@ -8,11 +9,108 @@ main {
 .sort-group {
     display: flex;
 }
+.row {
+    margin: 0 -15px;
+}
+.col-3 {
+    margin: 0 30px;
+}
+.range {
+    background: white;
+    padding: 1px 30px;
+    padding-bottom: 45px;
+}
+.range a {
+    width: 100%;
+    padding: 20px 0;
+    background: #8bc34a;
+    text-decoration: none;
+    color: white;
+    margin: 30px 0 0;
+    display: flex;
+    justify-content: center;
+}
+input[type=range] {
+-webkit-appearance: none
+}
+input[type=range] {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 200px;
+	padding: 0;
+    width: 100%;
+    margin: 30px 0;
+}
+input[type=range] {
+    border-radius: 10px;
+    height: 5px;
+    border: 1px solid #f2f5f8;
+    background-color: #f2f5f8;
+
+
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #fff;
+    border: 3px solid #0b6b00;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -5px;
+    outline: none
+}
+input:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
 .category {
     display: flex;
     justify-content: space-between;
     padding: 20px 15px;
     background: white;
+    margin-bottom: 30px;
+}
+h3 {
+    font-family: 'Roboto-bold';
+    margin: 25px 0 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #f2f5f8;
+}
+.cater-item li .fa {
+    color: #7ea463;
+    font-size: 14px;
+}
+.cater-item li span {
+    color: #99abb4;
+    font-family: 'Roboto-regular';
+    font-size: 15px;
+}
+.categories li {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.categories a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto-regular';
+    font-size: 15px;
+}
+.cater-item {
+    border: 1px solid #dcdcdc;  
+    background: white;
+    margin-bottom: 30px;
+}
+.cater-item h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;    
 }
 .col-9 .row {
     margin-bottom: 30px;
@@ -81,8 +179,11 @@ div.item-text {
     flex-direction: row;
     align-items: center;
 }
+.autor {
+    padding-bottom: 15px;
+}
 .autor img {
-    margin-right: 15px;
+    margin-right: 5px;
 }
 .product-footer {
     display: flex;
@@ -117,4 +218,21 @@ div.item-text {
     font-size: 12px;
     color: #ffa726;
     margin-right: 10px;
+}
+.top {
+    background: white;
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.pager {
+    display: flex;
+    flex-direction: row;
+}
+.pager li {
+    
 }
