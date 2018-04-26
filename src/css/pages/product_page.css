@@ -102,7 +102,7 @@ body {
     width: 100%;
     padding: 38px 0px 0px 35px;
 }
-.col-4 p {
+.col-4-d p {
     border: 1px solid #dedede;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -111,7 +111,7 @@ body {
     margin-bottom: -3px;
        
 }
-.col-4 {
+.col-4-d {
     justify-content: center;
     background: #ffffff;
 }
@@ -126,13 +126,13 @@ body {
 .tab-4 {
     border-bottom: none!important;
 }
-.col-4 .first {
+.col-4-d .first {
     border-bottom: 3px solid #8bc34a;
 }
-.col-4 {
+.col-4-d {
     padding: 0;
 }
-.row .col-4 .tab-1, .tab-2, .tab-3, .tab-4 {
+.row .col-4-d .tab-1, .tab-2, .tab-3, .tab-4 {
     cursor: pointer;
 }
 .info ul {
