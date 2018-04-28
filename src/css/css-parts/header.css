@@ -126,24 +126,24 @@ header .nav-bar .nav-item a:hover{
 
 
 
-header .header-bottom{
-    background-image: url(../images/header/bkg-header.png);
+header .header-bottom-all{
+    background-image: url(../images/header/header-bkg.jpg);
     display: flex;
     justify-content: center;
     padding: 65px 0;
     text-align: center;
 }
-header .header-bottom p{
+header .header-bottom-all p{
     font-family: 'Roboto-medium';
     color:white;
     font-size: 20px;
 }
 
-header .header-bottom .header-main .search{
+header .header-bottom-all .header-main .search{
     position: relative;
     margin-top: 25px;
 }
-header .header-bottom .header-main .search input{
+header .header-bottom-all .header-main .search input{
     width: 670px;
     height: 58px;
     border:none;
@@ -154,12 +154,12 @@ header .header-bottom .header-main .search input{
     color:Black;
     font-size: 14px; 
 }
-header .header-bottom .header-main .search input::placeholder{
+header .header-bottom-all .header-main .search input::placeholder{
     font-family: 'Roboto-medium';
     color:#90a4ae;
     font-size: 14px;    
 }
-header .header-bottom .header-main .search .fa-search{
+header .header-bottom-all .header-main .search .fa-search{
     position: absolute;
     right: 25px;
     top:50%;
