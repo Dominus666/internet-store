@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     }
-    .container {
+    .container-alina {
         padding-top: 50px;
         padding-bottom: 120px;
    }
@@ -24,28 +24,29 @@
     .left-tab ul {
         padding-left: 0;
     }
-    .profile {
+    .profile-alina {
         display: flex;
         flex-direction: column;
         height: 270px;
         width: 270px;
         background-color: white;
         border: 1px solid white;
-        padding: 0 33px;
+        padding: 30px 27px 40px 27px;
         margin-bottom: 13px;
         border: 1px solid #d0d0d0;
     }
-    .profile h3 {
+    .profile-alina h3 {
         font-family: Roboto-Bold;
     }
     hr {
         margin-bottom: 15px;
-        margin-top: 0;
+        margin-top: 24px;
+        margin-bottom: 24px;
         width: 200px;
     }
     .boss {
         display: flex;
-        margin: 15px 0;
+        margin-bottom: 24px;
     }
     .square {
         width: 70px;
@@ -56,9 +57,13 @@
     }
     .psd {
         margin-left: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 }
     .batch {
-        margin: 15px 0;
+        display: flex;
+        justify-content: space-around;
     }
     .psd span {
         font-family: Roboto-Regular;
@@ -66,8 +71,11 @@
     .online {
         display: flex;
         width: 70px;
-        height: 20px;
+        height: 30px;
         border: 1px solid #d4d4d4;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .online>span {
         font-size: 13px;
@@ -78,11 +86,12 @@
         border: 1px solid green;
         border-radius: 50%;
         background-color: green;
-        width: 5px;
-        height: 5px;
+        width: 7px;
+        height: 7px;
+        margin-right: 6px;
     }
-    .social {
-        padding: 13px 0;
+    .social-alina {
+        margin: 23px 0 25px 0;
     }
     .batch img {
         width: 32px;
@@ -95,7 +104,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        
+        margin-bottom: 17px;
+    }
+    .button-message .fa {
+        margin-right: 5px;
     }
     .button-follow {
         border: 1px solid #74cb46;
@@ -110,24 +122,19 @@
     .button-message>a {
         color: white;
         text-decoration: none;
-    
-    }
-    .button-message {
-    
-    }
-    #message {
         font-family: Roboto-Medium;
     }
     .button-follow>a {
         color: white;
         text-decoration: none;
-        
+        font-family: Roboto-Medium;
     }
     .left-tab {
         margin-top: 30px;
+        border: 1px solid #d0d0d0;
     }
     .left-tab li {
-        border: 1px solid #d0d0d0;
+        border-bottom: 1px solid #d0d0d0;
         width: 270px;
         height: 45px;
         background-color: white;
@@ -135,15 +142,21 @@
         align-items: center;
         padding-left: 24px;
     }
+    .left-tab li:last-child {
+        border-bottom: none;
+    }
     .left-tab li:hover {
         border-bottom: #74cb46;
     }
     .left-tab li a {
         color: #707070;
         text-decoration: none;
+        font-family: Roboto-Medium;
+        font-size: 14px;
     }
    .left-tab li a:hover {
         color: black;
+        font-weight: bold;
 
    }
     .left-tab li .fa {
@@ -153,11 +166,16 @@
     .left-tab li .fa:hover {
         color: #74cb46;
     }
+    .col-8 {
+        width: 100%;
+    }
     .banner {
         margin-bottom: 30px;
     }
-    .info-bar {
-        width: 850px;
+    .info-bar-alina {
+        display: flex;
+        align-items: center;
+        width: 100%;
         height: 80px;
         border: 1px solid #d0d0d0;
         background-color: #ffffff;
@@ -184,53 +202,73 @@
     #total {
         font-family: Roboto-Bold;
     }
-    .info-bar nav {
+    .info-bar-alina nav {
         width: 100%;
+        height: 100%;
 
     }
-    .info-bar ul {
+    .info-bar-alina ul {
         display: flex;
         justify-content: space-around;
+        height: 100%;
     }
-    .info-bar ul li {
-        
+    .info-bar-alina ul li {
+        height: 100%;
+        width: 25%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        border-right: 1px solid #d0d0d0;
     }
-    .info-bar li .fa {
+    .info-bar-alina ul li:last-child {
+        border-right: none;
+    }
+    .info-line {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-bar-alina li .fa {
         font-size: 10px;
         color: #ffa726;
+        padding: 1px;
     }
-    .about {
-        width: 850px;
-        height: 465px;
+    .star {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-alina {
+        width: 100%;
+        height: 468px;
         background-color: #ffffff;
         border: 1px solid #d0d0d0;
         padding-left: 42px;
         padding-right: 42px;
-        padding-top: 20px;
+        padding-top: 40px;
+        padding-bottom: 50px;
     }
-    .about h3 {
+    .about-alina h3 {
         font-family: Roboto-Bold;
+        margin-bottom: 30px;
     }
-    .about p {
+    .about-alina p {
         font-family: Roboto-Regular;
         font-size: 14px;
         color: #707070;
         line-height: 1.5;
-
+        margin-bottom: 50px;
     }
-    #graphic {
+    .skill-type {
         font-family: Roboto-Regular;
         font-style: italic;
     }
-    #word {
-        font-family: Roboto-Regular;
-        font-style: italic;
-    }
-    #joomla {
-        font-family: Roboto-Regular;
-        font-style: italic;
+    .percent {
+        float: right;
+        font-family: Roboto-Bold;
     }
     .progress {
         margin-top: 10px;
