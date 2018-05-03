@@ -16,3 +16,7 @@
     font-family: 'Roboto-regular';
     src: url('../fonts/Roboto-Regular.ttf');
 }
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.ttf');
+}
