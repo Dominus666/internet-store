@@ -5,8 +5,12 @@
         padding-top: 50px;
         padding-bottom: 120px;
    }
-    main { 
+  main { 
         background-color: #f3f6f5;
+    }
+    .container.container-alina{
+        padding-top: 50px;
+        padding-bottom: 120px;
     }
     .row {
         padding-top: 45px;
