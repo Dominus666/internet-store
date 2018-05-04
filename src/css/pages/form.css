@@ -3,7 +3,7 @@ body {
 	font-family: "Roboto-regular";
 	font-size: 15px;
 }
-main {
+main.ivan-main{
 	background: #f4f6f5;
 	width: 1170px;
 	margin: auto;
